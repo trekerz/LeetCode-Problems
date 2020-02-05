@@ -1,8 +1,7 @@
 /**
  * 6. 判断链表是否存在环
  * 141. Linked List Cycle (Easy)
- * @param {Array} arr1
- * @param {Array} arr2
+ * @param {ListNode} head
  */
 function hasCycle(head) {
   if (!head || !head.next) return false
